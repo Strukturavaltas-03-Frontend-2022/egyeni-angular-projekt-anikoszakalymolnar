@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Country } from 'src/app/model/country';
-import { CountryService } from 'src/app/service/country.service';
+import { Lego } from 'src/app/model/lego';
+import { LegoService } from 'src/app/service/lego.service';
 
 @Component({
   selector: 'app-cards',
@@ -10,9 +10,9 @@ import { CountryService } from 'src/app/service/country.service';
 })
 export class CardsComponent implements OnInit {
 
-  productList$: Observable<Country[]> = this.countryService.getAll();
+  productList$: Observable<Lego[]> = this.legoService.getAll();
 
-  constructor(private countryService: CountryService) { }
+  constructor(private legoService: LegoService) { }
 
   ngOnInit(): void {
   }

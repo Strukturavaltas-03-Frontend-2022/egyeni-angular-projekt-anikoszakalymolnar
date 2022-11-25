@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Country } from 'src/app/model/country';
+import { Lego } from 'src/app/model/lego';
 
 @Component({
   selector: 'app-card',
@@ -8,7 +8,7 @@ import { Country } from 'src/app/model/country';
 })
 export class CardComponent implements OnInit {
 
-  @Input() country: Country = new Country;
+  @Input() lego: Lego = new Lego;
 
   constructor() { }
 
