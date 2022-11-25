@@ -22,6 +22,7 @@ export class Lego {
     age: string = '';
     year: number = 0;
     piece: number = 0;
+    price: number = 0;
     stars: number = 0;
     discont: boolean = true;
     img: string = '';
