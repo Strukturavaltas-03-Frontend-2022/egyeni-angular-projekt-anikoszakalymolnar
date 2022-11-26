@@ -1,21 +1,29 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './page/home/home.component';
-import { CardsComponent } from './page/cards/cards.component';
-import { NavComponent } from './common/nav/nav.component';
+import { NavbarComponent } from './common/navbar/navbar.component';
+import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './common/card/card.component';
+import { Cat1Component } from './pages/cat1/cat1.component';
+import { Cat2Component } from './pages/cat2/cat2.component';
+import { Cat3Component } from './pages/cat3/cat3.component';
+import { EditComponent } from './pages/edit/edit.component';
+import { ProductsComponent } from './pages/products/products.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
     HomeComponent,
-    CardsComponent,
-    NavComponent,
-    CardComponent
+    CardComponent,
+    Cat1Component,
+    Cat2Component,
+    Cat3Component,
+    EditComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

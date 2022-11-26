@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Lego } from 'src/app/model/lego';
 
 @Component({
@@ -8,7 +8,7 @@ import { Lego } from 'src/app/model/lego';
 })
 export class CardComponent implements OnInit {
 
-  @Input() lego: Lego = new Lego;
+  @Input() lego: Lego = new Lego();
 
   constructor() { }
 

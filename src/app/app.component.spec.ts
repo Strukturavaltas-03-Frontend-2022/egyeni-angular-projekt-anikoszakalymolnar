@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'projekt-neve'`, () => {
+  it(`should have as title 'kocka-vilag'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('projekt-neve');
+    expect(app.title).toEqual('kocka-vilag');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('projekt-neve app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('kocka-vilag app is running!');
   });
 });

@@ -7,12 +7,11 @@ import { Lego } from '../model/lego';
 @Injectable({
   providedIn: 'root'
 })
-export class LegoService {
+export class ProductService {
 
   apiUrl: string = environment.apiUrl;
 
   LegoEntityName: string = 'legos';
-
 
   constructor(
     private http: HttpClient,
