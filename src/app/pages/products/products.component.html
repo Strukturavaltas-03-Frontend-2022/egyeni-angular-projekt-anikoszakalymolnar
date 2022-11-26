@@ -1,7 +1,12 @@
-<h1>LEGO® termékeink</h1>
+<div class="container">
 
-<div class="row mt-3">
-    <div class="col-12 col-md-6 col-lg-3" *ngFor="let item of list$ | async">
-        <app-card [lego]="item"></app-card>
+    <div class="row mt-3 text-center">
+        <h1>LEGO® termékeink</h1>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-12 col-md-6 col-lg-3 mb-5" *ngFor="let item of list$ | async">
+            <app-card [lego]="item"></app-card>
+        </div>
     </div>
 </div>

@@ -12,6 +12,7 @@ import { Cat2Component } from './pages/cat2/cat2.component';
 import { Cat3Component } from './pages/cat3/cat3.component';
 import { EditComponent } from './pages/edit/edit.component';
 import { ProductsComponent } from './pages/products/products.component';
+import { CategoryFilterPipe } from './pipe/category-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProductsComponent } from './pages/products/products.component';
     Cat2Component,
     Cat3Component,
     EditComponent,
-    ProductsComponent
+    ProductsComponent,
+    CategoryFilterPipe
   ],
   imports: [
     BrowserModule,

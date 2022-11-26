@@ -1,21 +1,29 @@
-<div class="card my-3">
-    <div class="card-header">
+<div class="card h-100 my-3">
+    <div class="card-header d-flex justify-content-center align-items-center"
+        style="height: 90px; background-color: #ffcf00;">
         <h3 class="card-title text-center">{{lego.title}}</h3>
     </div>
-    <img src="{{lego.img}}" class="card-img-top" alt="{{lego.title}}">
-    <div class="card-body">
+    <div class="productimage">
+        <img src="{{lego.img}}" class="my-2 card-img-top" alt="{{lego.title}}">
+        <div class="productcode">{{lego.code}}</div>
+        <div class="productnew">Újdonság</div>
+    </div>
+
+    <div class="card-body overflow-auto" style="height: 200px;">
         <p class="card-text">{{lego.description}}</p>
-        <p class="card-text">Kategória: {{lego.category}}</p>
-        <p class="card-text">Kód: {{lego.code}}</p>
+    </div>
+    <!-- <hr>
+    <div class="card-body">
         <p class="card-text">Kor: {{lego.age}}</p>
         <p class="card-text">Darabszám: {{lego.piece}}</p>
-        <p class="card-text">Év: {{lego.year}}</p>
+    </div>
+    <hr>
+    <div class="card-body">
         <p class="card-text">Ár: {{lego.price}}</p>
         <p class="card-text">Kedveltség: {{lego.stars}}</p>
         <p class="card-text">Leárazás: {{lego.discont}}</p>
-        <p class="card-text">Kép helye: {{lego.img}}</p>
-
     </div>
+    <hr> -->
     <div class="card-body ">
         <div class="btn-group d-flex">
             <button class="btn btn-danger " type="button"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
