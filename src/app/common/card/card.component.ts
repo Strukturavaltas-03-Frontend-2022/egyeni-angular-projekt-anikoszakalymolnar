@@ -11,6 +11,7 @@ import { ProductService } from 'src/app/service/product.service';
 export class CardComponent implements OnInit {
 
   @Input() lego: Lego = new Lego();
+  @Input() bigCard: boolean = true;
 
   constructor(
     private productService: ProductService,

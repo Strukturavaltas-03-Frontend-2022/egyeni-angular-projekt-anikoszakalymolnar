@@ -24,6 +24,8 @@ export class Lego {
     piece: number = 0;
     price: number = 0;
     stars: number = 0;
-    discont: boolean = true;
+    new: boolean = false;
+    discont: number = 0;
+    stock: number = 0;
     img: string = '';
 }

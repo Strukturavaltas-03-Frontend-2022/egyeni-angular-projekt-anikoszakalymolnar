@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Lego } from 'src/app/model/lego';
+import { ProductService } from 'src/app/service/product.service';
 
 @Component({
   selector: 'app-home',
@@ -6,8 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  list$: Observable<Lego[]> = this.productService.getAll();
+  constructor(private productService: ProductService,) { }
 
   ngOnInit(): void {
   }

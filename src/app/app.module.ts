@@ -14,6 +14,8 @@ import { EditComponent } from './pages/edit/edit.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { CategoryFilterPipe } from './pipe/category-filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { ListerComponent } from './common/lister/lister.component';
 
 @NgModule({
   declarations: [
@@ -26,13 +28,15 @@ import { FormsModule } from '@angular/forms';
     Cat3Component,
     EditComponent,
     ProductsComponent,
-    CategoryFilterPipe
+    CategoryFilterPipe,
+    ListerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

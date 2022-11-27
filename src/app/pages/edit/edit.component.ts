@@ -31,9 +31,9 @@ export class EditComponent implements OnInit {
   onUpdate(eventForm: NgForm, lego: Lego): void {
     if (lego.id == 0)
       this.productService.create(lego).subscribe(
-        event => this.router.navigate(['']));
+        event => this.router.navigate(['legos']));
     else this.productService.update(lego).subscribe(
-      event => this.router.navigate(['']));
+      event => this.router.navigate(['legos']));
 
   }
 }

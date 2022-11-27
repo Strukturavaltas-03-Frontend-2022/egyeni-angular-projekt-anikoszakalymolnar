@@ -55,17 +55,32 @@
     right: -.5rem;
 }
 
-.productinfo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .productage {
-    margin: 0rem 1rem;
     padding: .2rem .4rem;
     background-color: silver;
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.stock,
+.priceorig,
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.priceorig {
+    color: red;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+}
+
+.outofstock {
+    filter: grayscale(100%);
 }

@@ -24,8 +24,10 @@
       "year": 2021,
       "piece": 186,
       "price": 5480,
-      "stars": 5,
-      "discont": true,
+      "stars": 4,
+      "new": false,
+      "discont": 10,
+      "stock": 10,
       "img": "../assets/img/40442.JPG"
     },
     {
@@ -39,7 +41,9 @@
       "piece": 530,
       "price": 7290,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 14,
       "img": "/assets/img/40541.JPG"
     },
     {
@@ -53,7 +57,9 @@
       "piece": 530,
       "price": 7290,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 45,
       "img": "/assets/img/40542.JPG"
     },
     {
@@ -66,8 +72,10 @@
       "year": 2022,
       "piece": 260,
       "price": 7295,
-      "stars": 5,
-      "discont": true,
+      "stars": 3,
+      "new": true,
+      "discont": 0,
+      "stock": 3,
       "img": "/assets/img/40547.JPG"
     },
     {
@@ -80,8 +88,10 @@
       "year": 2017,
       "piece": 99,
       "price": 8990,
-      "stars": 5,
-      "discont": false,
+      "stars": 3,
+      "new": false,
+      "discont": 5,
+      "stock": 0,
       "img": "/assets/img/41586.JPG"
     },
     {
@@ -94,8 +104,10 @@
       "year": 2018,
       "piece": 201,
       "price": 5780,
-      "stars": 5,
-      "discont": false,
+      "stars": 4,
+      "new": false,
+      "discont": 0,
+      "stock": 3,
       "img": "/assets/img/41618.JPG"
     },
     {
@@ -109,7 +121,9 @@
       "piece": 246,
       "price": 7108,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 6,
       "img": "/assets/img/40554.JPG"
     },
     {
@@ -122,8 +136,10 @@
       "year": 2017,
       "piece": 116,
       "price": 4890,
-      "stars": 5,
-      "discont": true,
+      "stars": 4,
+      "new": false,
+      "discont": 0,
+      "stock": 17,
       "img": "/assets/img/41596.JPG"
     },
     {
@@ -133,11 +149,13 @@
       "category": 1,
       "code": 40436,
       "age": "10+",
-      "year": 0,
+      "year": 2019,
       "piece": 134,
       "price": 6790,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40436.JPG"
     },
     {
@@ -151,7 +169,9 @@
       "piece": 255,
       "price": 5490,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40384.JPG"
     },
     {
@@ -161,11 +181,13 @@
       "category": 1,
       "code": 40383,
       "age": "8+",
-      "year": 0,
+      "year": 2020,
       "piece": 306,
       "price": 6990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40383.JPG"
     },
     {
@@ -179,7 +201,9 @@
       "piece": 244,
       "price": 6990,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40420.JPG"
     },
     {
@@ -189,11 +213,13 @@
       "category": 1,
       "code": 40349,
       "age": "10+",
-      "year": 0,
+      "year": 2019,
       "piece": 147,
       "price": 5990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40349.JPG"
     },
     {
@@ -207,7 +233,9 @@
       "piece": 214,
       "price": 8490,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40378.JPG"
     },
     {
@@ -221,7 +249,9 @@
       "piece": 90,
       "price": 4390,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40377.JPG"
     },
     {
@@ -235,7 +265,9 @@
       "piece": 153,
       "price": 4590,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40367.JPG"
     },
     {
@@ -249,7 +281,9 @@
       "piece": 113,
       "price": 14990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41606.JPG"
     },
     {
@@ -263,7 +297,9 @@
       "piece": 281,
       "price": 8780,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40353.JPG"
     },
     {
@@ -277,7 +313,9 @@
       "piece": 203,
       "price": 7490,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40545.JPG"
     },
     {
@@ -291,7 +329,9 @@
       "piece": 150,
       "price": 6990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40348.JPG"
     },
     {
@@ -305,7 +345,9 @@
       "piece": 361,
       "price": 15990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41623.JPG"
     },
     {
@@ -319,7 +361,9 @@
       "piece": 180,
       "price": 16990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41615.JPG"
     },
     {
@@ -333,7 +377,9 @@
       "piece": 205,
       "price": 8290,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40559.JPG"
     },
     {
@@ -347,7 +393,9 @@
       "piece": 140,
       "price": 6700,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40270.JPG"
     },
     {
@@ -361,7 +409,9 @@
       "piece": 226,
       "price": 7290,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40550.JPG"
     },
     {
@@ -375,7 +425,9 @@
       "piece": 102,
       "price": 35990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41487.JPG"
     },
     {
@@ -389,7 +441,9 @@
       "piece": 180,
       "price": 5490,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40425.JPG"
     },
     {
@@ -403,7 +457,9 @@
       "piece": 249,
       "price": 7290,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40466.JPG"
     },
     {
@@ -417,7 +473,9 @@
       "piece": 243,
       "price": 18990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40482.JPG"
     },
     {
@@ -431,7 +489,9 @@
       "piece": 219,
       "price": 5386,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40481.JPG"
     },
     {
@@ -445,7 +505,9 @@
       "piece": 109,
       "price": 52990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41624.JPG"
     },
     {
@@ -459,7 +521,9 @@
       "piece": 129,
       "price": 52990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41625.JPG"
     },
     {
@@ -473,7 +537,9 @@
       "piece": 260,
       "price": 13880,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21153.JPG"
     },
     {
@@ -487,7 +553,9 @@
       "piece": 201,
       "price": 6990,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21167.JPG"
     },
     {
@@ -501,7 +569,9 @@
       "piece": 92,
       "price": 3500,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21164.JPG"
     },
     {
@@ -515,7 +585,9 @@
       "piece": 490,
       "price": 16679,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21170.JPG"
     },
     {
@@ -529,7 +601,9 @@
       "piece": 238,
       "price": 6541,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21165.JPG"
     },
     {
@@ -543,7 +617,9 @@
       "piece": 340,
       "price": 11228,
       "stars": 5,
-      "discont": false,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21181.JPG"
     },
     {
@@ -557,7 +633,9 @@
       "piece": 204,
       "price": 13886,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21158.JPG"
     },
     {
@@ -571,7 +649,9 @@
       "piece": 193,
       "price": 6372,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21178.JPG"
     },
     {
@@ -585,7 +665,9 @@
       "piece": 0,
       "price": 7360,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21166.JPG"
     },
     {
@@ -599,7 +681,9 @@
       "piece": 198,
       "price": 14900,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21140.JPG"
     },
     {
@@ -613,7 +697,9 @@
       "piece": 241,
       "price": 6990,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21171.JPG"
     },
     {
@@ -627,7 +713,9 @@
       "piece": 154,
       "price": 6443,
       "stars": 5,
-      "discont": false,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21184.JPG"
     },
     {
@@ -641,7 +729,9 @@
       "piece": 134,
       "price": 6372,
       "stars": 5,
-      "discont": false,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21179.JPG"
     },
     {
@@ -655,7 +745,9 @@
       "piece": 11,
       "price": 3025,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71372.JPG"
     },
     {
@@ -669,7 +761,9 @@
       "piece": 160,
       "price": 7704,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71381.JPG"
     },
     {
@@ -683,7 +777,9 @@
       "piece": 229,
       "price": 8821,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71398.JPG"
     },
     {
@@ -697,7 +793,9 @@
       "piece": 267,
       "price": 9833,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71382.JPG"
     },
     {
@@ -711,7 +809,9 @@
       "piece": 11,
       "price": 2917,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71392.JPG"
     },
     {
@@ -725,7 +825,9 @@
       "piece": 280,
       "price": 19015,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71387.JPG"
     },
     {
@@ -739,7 +841,9 @@
       "piece": 13,
       "price": 2917,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71385.JPG"
     },
     {
@@ -753,7 +857,9 @@
       "piece": 246,
       "price": 9624,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71406.JPG"
     },
     {
@@ -767,7 +873,9 @@
       "piece": 231,
       "price": 18180,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71360.JPG"
     },
     {
@@ -781,7 +889,9 @@
       "piece": 18,
       "price": 2917,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71384.JPG"
     },
     {
@@ -795,7 +905,9 @@
       "piece": 354,
       "price": 19929,
       "stars": 5,
-      "discont": true,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71403.JPG"
     },
     {
@@ -809,7 +921,9 @@
       "piece": 13,
       "price": 2917,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71393.JPG"
     },
     {
@@ -823,7 +937,9 @@
       "piece": 84,
       "price": 3007,
       "stars": 5,
-      "discont": false,
+      "new": true,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71396.JPG"
     },
     {
@@ -837,7 +953,9 @@
       "piece": 10,
       "price": 3025,
       "stars": 5,
-      "discont": false,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71373.JPG"
     },
     {
@@ -851,7 +969,9 @@
       "piece": 205,
       "price": 9990,
       "stars": 5,
-      "discont": true,
+      "new": false,
+      "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71367.JPG"
     }
   ]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Lego } from 'src/app/model/lego';
 import { ProductService } from 'src/app/service/product.service';
@@ -14,8 +15,13 @@ export class ProductsComponent implements OnInit {
 
   constructor(
     private productService: ProductService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onNew() {
+    this.router.navigate(['edit', 0]);
   }
 }

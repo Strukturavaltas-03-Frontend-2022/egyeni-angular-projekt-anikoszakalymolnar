@@ -1,0 +1,9 @@
+.my-pagination ::ng-deep .ngx-pagination .current {
+    background: #ffd000;
+    color: black;
+}
+
+.my-pagination ::ng-deep .ngx-pagination :hover {
+    background: #ffd00044;
+    color: black;
+}

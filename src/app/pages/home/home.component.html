@@ -10,8 +10,14 @@
                 suscipit sapiente minus aperiam nostrum autem laboriosam!
             </div>
         </div>
-        <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-warning btn-lg" routerLink="/legos" type="button">Ugrás a termékekre</button>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <button class="btn btn-warning btn-lg" routerLink="/legos" type="button">Ugrás a termékekre ></button>
         </div>
     </div>
+    <div *ngIf="list$ | async as list">
+        <app-lister [list]="list" [cardperpage]="4" [bigCard]="false"></app-lister>
+    </div>
+
 </div>

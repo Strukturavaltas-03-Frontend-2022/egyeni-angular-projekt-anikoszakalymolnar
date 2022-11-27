@@ -1,0 +1,13 @@
+<div class="row mt-3">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-5"
+        *ngFor="let item of list | paginate: { itemsPerPage: cardperpage, currentPage: p }">
+        <app-card [lego]="item" [bigCard]="bigCard"></app-card>
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-12 d-flex justify-content-center">
+        <pagination-controls class="my-pagination" (pageChange)="p = $event" previousLabel="Előző"
+            nextLabel="Következő">
+        </pagination-controls>
+    </div>
+</div>
