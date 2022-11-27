@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Lego } from 'src/app/model/lego';
+import { ProductService } from 'src/app/service/product.service';
 
 @Component({
   selector: 'app-card',
@@ -10,9 +12,21 @@ export class CardComponent implements OnInit {
 
   @Input() lego: Lego = new Lego();
 
-  constructor() { }
+  constructor(
+    private productService: ProductService,
+    private router: Router,
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  onDelete() {
+    this.productService.delete(this.lego)
+      .subscribe(event => this.router.navigate(['']));
+  }
+
+  onEdit() {
+    this.router.navigate(['edit', this.lego.id]);
   }
 
 }

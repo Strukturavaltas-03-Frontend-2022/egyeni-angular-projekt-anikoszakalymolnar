@@ -13,6 +13,7 @@ import { Cat3Component } from './pages/cat3/cat3.component';
 import { EditComponent } from './pages/edit/edit.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { CategoryFilterPipe } from './pipe/category-filter.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CategoryFilterPipe } from './pipe/category-filter.pipe';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -51,6 +51,21 @@
     background-color: red;
     color: white;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1rem;
+    right: -.5rem;
+}
+
+.productinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.productage {
+    margin: 0rem 1rem;
+    padding: .2rem .4rem;
+    background-color: silver;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }

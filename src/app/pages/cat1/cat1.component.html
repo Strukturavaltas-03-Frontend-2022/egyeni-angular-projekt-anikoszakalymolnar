@@ -5,7 +5,7 @@
     </div>
 
     <div class="row mt-3">
-        <div class="col-12 col-md-6 col-lg-3 mb-5" *ngFor="let item of list$ | async | categoryFilter:1">
+        <div class="col-12 col-md-6  col-lg-4 col-xl-3 mb-5" *ngFor="let item of list$ | async | categoryFilter:1">
             <app-card [lego]="item"></app-card>
         </div>
     </div>

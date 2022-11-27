@@ -1,12 +1,18 @@
 <div class="card h-100 my-3">
     <div class="card-header d-flex justify-content-center align-items-center"
         style="height: 90px; background-color: #ffcf00;">
-        <h3 class="card-title text-center">{{lego.title}}</h3>
+        <h5 class="card-title text-center">{{lego.title}}</h5>
     </div>
     <div class="productimage">
         <img src="{{lego.img}}" class="my-2 card-img-top" alt="{{lego.title}}">
         <div class="productcode">{{lego.code}}</div>
-        <div class="productnew">Újdonság</div>
+        <div *ngIf="lego.year>=2022" class="productnew">Újdonság</div>
+
+    </div>
+
+    <div class="productinfo">
+        <div class="productage">{{lego.age}}</div>
+        <div class="productage">{{lego.piece}}<sub>db</sub></div>
     </div>
 
     <div class="card-body overflow-auto" style="height: 200px;">
@@ -26,8 +32,11 @@
     <hr> -->
     <div class="card-body ">
         <div class="btn-group d-flex">
-            <button class="btn btn-danger " type="button"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
-            <button class="btn btn-success " type="button"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</button>
+            <button class="btn btn-danger" type="button" (click)="onDelete()"><i class="fa fa-trash"
+                    aria-hidden="true"></i> Törlés</button>
+            <button class="btn btn-success" type="button" (click)="onEdit()"><i class="fa fa-pencil"
+                    aria-hidden="true"></i>
+                Szerkesztés</button>
         </div>
     </div>
 </div>

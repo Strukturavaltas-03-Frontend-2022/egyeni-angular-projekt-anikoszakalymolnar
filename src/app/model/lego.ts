@@ -17,7 +17,7 @@ export class Lego {
     id: number = 0;
     title: string = '';
     description: string = '';
-    category: string = '';
+    category: number = 0;
     code: string = '';
     age: string = '';
     year: number = 0;
