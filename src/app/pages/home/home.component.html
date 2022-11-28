@@ -4,19 +4,20 @@
             <h1>
                 Üdvözöllek a KockaVilág birodalmában!
             </h1>
-            <div class="my-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur explicabo tempore doloribus
-                maxime? Pariatur atque corrupti necessitatibus? Officiis, temporibus. Eveniet repudiandae et tempore
-                suscipit sapiente minus aperiam nostrum autem laboriosam!
-            </div>
+            <h4 class=" my-4 lead">Szenzációs akciókkal várjuk a karácsonyi időszakban a Lego-ra váró gyermekeket és
+                szüleiket!</h4>
+            <h4 class=" my-4 lead">Tekintsék meg az ünnepi ajánlatainkat!</h4>
+            <h4 class=" my-4 lead">Egyes termékekre akár <b class="text-danger">10% - 20%</b> -os kedvezményt is adunk
+                (a készlet erejéig!)</h4>
+            <h5 class=" my-4 lead"><b>Ne hagyja ki!</b></h5>
         </div>
     </div>
-    <div class="row">
+    <div class="row mt-2">
         <div class="col-12 text-center">
             <button class="btn btn-warning btn-lg" routerLink="/legos" type="button">Ugrás a termékekre ></button>
         </div>
     </div>
-    <div *ngIf="list$ | async as list">
+    <div *ngIf="(list$ | async) | topstars | availablestock | random as list">
         <app-lister [list]="list" [cardperpage]="4" [bigCard]="false"></app-lister>
     </div>
 

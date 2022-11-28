@@ -24,9 +24,10 @@
       "year": 2021,
       "piece": 186,
       "price": 5480,
-      "stars": 5,
-      "new": true,
-      "discont": 0,
+      "stars": 4,
+      "new": false,
+      "discont": 10,
+      "stock": 10,
       "img": "../assets/img/40442.JPG"
     },
     {
@@ -42,6 +43,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 14,
       "img": "/assets/img/40541.JPG"
     },
     {
@@ -57,6 +59,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 45,
       "img": "/assets/img/40542.JPG"
     },
     {
@@ -69,9 +72,10 @@
       "year": 2022,
       "piece": 260,
       "price": 7295,
-      "stars": 5,
+      "stars": 3,
       "new": true,
       "discont": 0,
+      "stock": 3,
       "img": "/assets/img/40547.JPG"
     },
     {
@@ -84,9 +88,10 @@
       "year": 2017,
       "piece": 99,
       "price": 8990,
-      "stars": 5,
+      "stars": 3,
       "new": false,
-      "discont": 0,
+      "discont": 5,
+      "stock": 0,
       "img": "/assets/img/41586.JPG"
     },
     {
@@ -99,9 +104,10 @@
       "year": 2018,
       "piece": 201,
       "price": 5780,
-      "stars": 5,
+      "stars": 4,
       "new": false,
       "discont": 0,
+      "stock": 3,
       "img": "/assets/img/41618.JPG"
     },
     {
@@ -117,6 +123,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 6,
       "img": "/assets/img/40554.JPG"
     },
     {
@@ -129,9 +136,10 @@
       "year": 2017,
       "piece": 116,
       "price": 4890,
-      "stars": 5,
+      "stars": 4,
       "new": false,
       "discont": 0,
+      "stock": 17,
       "img": "/assets/img/41596.JPG"
     },
     {
@@ -147,6 +155,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40436.JPG"
     },
     {
@@ -162,6 +171,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40384.JPG"
     },
     {
@@ -177,6 +187,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40383.JPG"
     },
     {
@@ -192,6 +203,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40420.JPG"
     },
     {
@@ -207,6 +219,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40349.JPG"
     },
     {
@@ -222,6 +235,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40378.JPG"
     },
     {
@@ -237,6 +251,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40377.JPG"
     },
     {
@@ -252,6 +267,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40367.JPG"
     },
     {
@@ -267,6 +283,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41606.JPG"
     },
     {
@@ -282,6 +299,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40353.JPG"
     },
     {
@@ -297,6 +315,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40545.JPG"
     },
     {
@@ -312,6 +331,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40348.JPG"
     },
     {
@@ -327,6 +347,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41623.JPG"
     },
     {
@@ -342,6 +363,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41615.JPG"
     },
     {
@@ -357,6 +379,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40559.JPG"
     },
     {
@@ -372,6 +395,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40270.JPG"
     },
     {
@@ -387,6 +411,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40550.JPG"
     },
     {
@@ -402,6 +427,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41487.JPG"
     },
     {
@@ -417,6 +443,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40425.JPG"
     },
     {
@@ -432,6 +459,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40466.JPG"
     },
     {
@@ -447,6 +475,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40482.JPG"
     },
     {
@@ -462,6 +491,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/40481.JPG"
     },
     {
@@ -477,6 +507,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41624.JPG"
     },
     {
@@ -492,6 +523,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/41625.JPG"
     },
     {
@@ -507,6 +539,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21153.JPG"
     },
     {
@@ -522,6 +555,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21167.JPG"
     },
     {
@@ -537,6 +571,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21164.JPG"
     },
     {
@@ -552,6 +587,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21170.JPG"
     },
     {
@@ -567,6 +603,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21165.JPG"
     },
     {
@@ -582,6 +619,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21181.JPG"
     },
     {
@@ -597,6 +635,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21158.JPG"
     },
     {
@@ -612,6 +651,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21178.JPG"
     },
     {
@@ -627,6 +667,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21166.JPG"
     },
     {
@@ -642,6 +683,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21140.JPG"
     },
     {
@@ -657,6 +699,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21171.JPG"
     },
     {
@@ -672,6 +715,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21184.JPG"
     },
     {
@@ -687,6 +731,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/21179.JPG"
     },
     {
@@ -702,6 +747,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71372.JPG"
     },
     {
@@ -717,6 +763,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71381.JPG"
     },
     {
@@ -732,6 +779,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71398.JPG"
     },
     {
@@ -747,6 +795,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71382.JPG"
     },
     {
@@ -762,6 +811,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71392.JPG"
     },
     {
@@ -777,6 +827,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71387.JPG"
     },
     {
@@ -792,6 +843,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71385.JPG"
     },
     {
@@ -807,6 +859,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71406.JPG"
     },
     {
@@ -822,6 +875,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71360.JPG"
     },
     {
@@ -837,6 +891,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71384.JPG"
     },
     {
@@ -852,6 +907,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71403.JPG"
     },
     {
@@ -867,6 +923,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71393.JPG"
     },
     {
@@ -882,6 +939,7 @@
       "stars": 5,
       "new": true,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71396.JPG"
     },
     {
@@ -897,6 +955,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71373.JPG"
     },
     {
@@ -912,6 +971,7 @@
       "stars": 5,
       "new": false,
       "discont": 0,
+      "stock": 0,
       "img": "/assets/img/71367.JPG"
     }
   ]

@@ -16,6 +16,13 @@ import { CategoryFilterPipe } from './pipe/category-filter.pipe';
 import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ListerComponent } from './common/lister/lister.component';
+import { PriceorderPipe } from './pipe/priceorder.pipe';
+import { AvailablestockPipe } from './pipe/availablestock.pipe';
+import { CalcdiscontPipe } from './pipe/calcdiscont.pipe';
+import { TopstarsPipe } from './pipe/topstars.pipe';
+import { LegoComponent } from './pages/lego/lego.component';
+import { RandomPipe } from './pipe/random.pipe';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +36,14 @@ import { ListerComponent } from './common/lister/lister.component';
     EditComponent,
     ProductsComponent,
     CategoryFilterPipe,
-    ListerComponent
+    ListerComponent,
+    PriceorderPipe,
+    AvailablestockPipe,
+    CalcdiscontPipe,
+    TopstarsPipe,
+    LegoComponent,
+    RandomPipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

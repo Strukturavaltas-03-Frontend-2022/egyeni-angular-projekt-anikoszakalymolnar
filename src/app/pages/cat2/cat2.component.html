@@ -4,7 +4,7 @@
         <h1>LEGO® Minecraft® termékeink</h1>
     </div>
 
-    <div *ngIf="list$ | async | categoryFilter:2 as list">
+    <div *ngIf="list$ | async | categoryFilter:2 | priceorder as list">
         <app-lister [list]="list"></app-lister>
     </div>
 </div>

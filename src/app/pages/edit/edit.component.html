@@ -113,9 +113,26 @@
                     </div>
                 </div>
             </div>
-            <button [disabled]="editForm.invalid" type="submit" class="btn btn-primary btn-block mt-3">
-                <i class="fa fa-save"></i> Mentés
-            </button>
+            <div class="d-flex">
+                <div class="form-group col-8">
+                    <label for="">Kép</label>
+                    <input name="img" [(ngModel)]="lego.img" type="text" class="form-control">
+                    <div [hidden]="editForm.controls['img'].valid" class="error-message">
+                        Adja meg a kép helyét.
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center m-2">
+                    <img src="{{lego.img}}" alt="" height="200px">
+                </div>
+
+            </div>
+
+            <div class="btn-group d-flex justify-content-end" role="group">
+                <button [disabled]="editForm.invalid" type="submit" class="btn btn-warning btn-block mt-3">
+                    <i class="fa fa-save"></i> Mentés
+                </button>
+            </div>
+
         </form>
     </div>
 </div>

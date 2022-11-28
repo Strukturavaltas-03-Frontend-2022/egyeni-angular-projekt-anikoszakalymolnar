@@ -1,0 +1,75 @@
+<div *ngIf="(lego$ | async) as lego">
+    <div class="row">
+        <div class="col-12 col-xl-4 m-4 ">
+            <img src="{{lego.img}}" class="my-2 card-img-top" alt="{{lego.title}}">
+        </div>
+        <div class="col-12 col-xl-7 m-4 bg-light">
+            <div class="row">
+                <div class="card-header d-flex justify-content-center align-items-center"
+                    style="height: 90px; background-color: #ffcf00;">
+                    <h5 class="card-title text-center">{{lego.title}}</h5>
+                </div>
+            </div>
+            <div class="p-4">
+                <div>
+                    <div class="card-body overflow-auto">
+                        <p class="card-text">{{lego.description}}</p>
+                    </div>
+                </div>
+                <table class="table my-5">
+                    <tr>
+                        <td>Kategória:</td>
+                        <td [ngSwitch]="lego.category">
+                            <b *ngSwitchCase="1">LEGO® Brickheadz</b>
+                            <b *ngSwitchCase="2">LEGO® Minecraft®</b>
+                            <b *ngSwitchCase="3">LEGO® Super Mario™</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kód:</td>
+                        <td><b>{{lego.code}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>Ajánlott korcsoport:</td>
+                        <td><b>{{lego.age}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>Részek:</td>
+                        <td><b>{{lego.piece}} db</b></td>
+                    </tr>
+                    <tr>
+                        <td>Kiadás éve:</td>
+                        <td><b>{{lego.year}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>Raktárkészlet:</td>
+                        <td *ngIf="lego.stock == 0" class="text-muted"><b>Elfogyott</b></td>
+                        <td *ngIf="lego.stock > 0"><b>{{lego.stock}} db</b></td>
+                    </tr>
+
+                    <tr *ngIf="lego.discont > 0">
+                        <td>Eredeti ár:</td>
+                        <td class="priceorig position-relative">{{lego.price}} Ft <span
+                                class="badge rounded-pill bg-danger">
+                                -{{lego.discont}} %
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <td>Ár:</td>
+                        <td><b>{{ lego | calcdiscont }} Ft</b></td>
+                    </tr>
+                </table>
+
+                <div>
+                    <div class="card-body d-flex py-0">
+                        <div *ngFor="let i of [0,1,2,3,4]" class="star">
+                            <div *ngIf="i >= lego.stars"><img src="assets/img/star.svg" alt=""></div>
+                            <div *ngIf="i < lego.stars"><img src="assets/img/starActive.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

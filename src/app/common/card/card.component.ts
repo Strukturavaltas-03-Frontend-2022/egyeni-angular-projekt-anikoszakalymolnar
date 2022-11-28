@@ -30,4 +30,8 @@ export class CardComponent implements OnInit {
     this.router.navigate(['edit', this.lego.id]);
   }
 
+  onShow() {
+    this.router.navigate(['lego', this.lego.id]);
+  }
+
 }

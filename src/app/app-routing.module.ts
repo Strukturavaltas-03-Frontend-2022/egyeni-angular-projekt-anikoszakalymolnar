@@ -5,6 +5,7 @@ import { Cat2Component } from './pages/cat2/cat2.component';
 import { Cat3Component } from './pages/cat3/cat3.component';
 import { EditComponent } from './pages/edit/edit.component';
 import { HomeComponent } from './pages/home/home.component';
+import { LegoComponent } from './pages/lego/lego.component';
 import { ProductsComponent } from './pages/products/products.component';
 
 const routes: Routes = [
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path: 'legos',
     component: ProductsComponent,
+  },
+  {
+    path: 'lego/:id',
+    component: LegoComponent,
   },
   {
     path: 'brickheadz',

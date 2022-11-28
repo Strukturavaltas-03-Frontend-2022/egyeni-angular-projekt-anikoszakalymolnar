@@ -3,13 +3,31 @@
     <div class="row mt-3 text-center">
         <h1>LEGO® termékeink</h1>
     </div>
-    <div class="row mt-3 d-flex flex-row-reverse" (click)="onNew()">
+    <div class="row mt-3 d-flex flex-row justify-content-between">
+        <div class="col-6 col-md-4 col-lg-4 col-xl-4 ">
+            <div class="d-flex align-items-center">
+                <div>Ár szerint:</div>
+                <div class="btn-group mx-2">
+                    <button class="btn btn-warning" (click)="priceOrder = true">
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+                    <button class="btn btn-warning" (click)="priceOrder = false"><i class="fa fa-arrow-down"
+                            aria-hidden="true"></i></button>
+                </div>
+                <div>
+                    <input class="form-check-input" type="checkbox" id="flexCheckDefault" [checked]="stockFilter"
+                        (change)="stockFilter = !stockFilter">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Készleten lévő termékek
+                    </label>
+                </div>
+            </div>
+        </div>
         <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-            <button class="btn btn-warning"><i class="fa fa-cubes"></i>
+            <button class="btn btn-warning" (click)="onNew()"><i class="fa fa-cubes"></i>
                 Új temék felvétele</button>
         </div>
     </div>
-    <div *ngIf="list$ | async as list">
+    <div *ngIf="(list$ | async) | availablestock:stockFilter | priceorder:priceOrder  as list">
         <app-lister [list]="list"></app-lister>
     </div>
 </div>

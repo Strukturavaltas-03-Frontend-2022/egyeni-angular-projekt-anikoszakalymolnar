@@ -4,7 +4,7 @@
         <h1>LEGO® Brickheadz termékeink</h1>
     </div>
 
-    <div *ngIf="list$ | async | categoryFilter:1 as list">
+    <div *ngIf="list$ | async | categoryFilter:1 | priceorder as list">
         <app-lister [list]="list"></app-lister>
     </div>
 </div>

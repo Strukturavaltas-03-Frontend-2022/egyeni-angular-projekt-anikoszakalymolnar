@@ -13,6 +13,9 @@ export class ProductsComponent implements OnInit {
 
   list$: Observable<Lego[]> = this.productService.getAll();
 
+  priceOrder: boolean = true;
+  stockFilter: boolean = true;
+
   constructor(
     private productService: ProductService,
     private router: Router,
