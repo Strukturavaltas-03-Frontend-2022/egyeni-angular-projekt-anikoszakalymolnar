@@ -1,12 +1,11 @@
 <div *ngIf="(lego$ | async) as lego">
-    <div class="row">
-        <div class="col-12 col-xl-4 m-4 ">
-            <img src="{{lego.img}}" class="my-2 card-img-top" alt="{{lego.title}}">
+    <div class="row p-5">
+        <div class="col-12 col-md-8 col-lg-4 ">
+            <img src="{{lego.img}}" class="pb-4 card-img-top" alt="{{lego.title}}">
         </div>
-        <div class="col-12 col-xl-7 m-4 bg-light">
+        <div class="col-12 col-lg-7 bg-light">
             <div class="row">
-                <div class="card-header d-flex justify-content-center align-items-center"
-                    style="height: 90px; background-color: #ffcf00;">
+                <div class="card-header d-flex justify-content-center align-items-center">
                     <h5 class="card-title text-center">{{lego.title}}</h5>
                 </div>
             </div>
