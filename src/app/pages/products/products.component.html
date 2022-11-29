@@ -1,5 +1,4 @@
 <div class="container">
-
     <div class="row mt-3 text-center">
         <h1>LEGO® termékeink</h1>
     </div>
@@ -27,7 +26,8 @@
                 Új temék felvétele</button>
         </div>
     </div>
-    <div *ngIf="(list$ | async) | availablestock:stockFilter | priceorder:priceOrder  as list">
+    <div
+        *ngIf="(list$ | async) | filter:( pharse$ | async) | availablestock:stockFilter | priceorder:priceOrder  as list">
         <app-lister [list]="list"></app-lister>
     </div>
 </div>

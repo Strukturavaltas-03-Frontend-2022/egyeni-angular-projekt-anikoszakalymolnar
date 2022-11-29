@@ -13,7 +13,7 @@ import { Cat3Component } from './pages/cat3/cat3.component';
 import { EditComponent } from './pages/edit/edit.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { CategoryFilterPipe } from './pipe/category-filter.pipe';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ListerComponent } from './common/lister/lister.component';
 import { PriceorderPipe } from './pipe/priceorder.pipe';
@@ -24,6 +24,7 @@ import { LegoComponent } from './pages/lego/lego.component';
 import { RandomPipe } from './pipe/random.pipe';
 import { FooterComponent } from './common/footer/footer.component';
 import { IsnewlegoPipe } from './pipe/isnewlego.pipe';
+import { FilterPipe } from './pipe/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -45,13 +46,15 @@ import { IsnewlegoPipe } from './pipe/isnewlego.pipe';
     LegoComponent,
     RandomPipe,
     FooterComponent,
-    IsnewlegoPipe
+    IsnewlegoPipe,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
     NgxPaginationModule
   ],
   providers: [],
