@@ -3,27 +3,29 @@
         <h2 class="mb-4" *ngIf="lego['id']==0">Új termék tulajdonságainak beállítása</h2>
         <h2 *ngIf="lego['id']>0">Termék tulajdonságainak beállítása</h2>
         <form #editForm="ngForm" (ngSubmit)="onUpdate(editForm, lego)">
-            <div class="d-flex">
+            <div class="row">
                 <div class="form-group col-12">
                     <label for="">Név</label>
                     <input name="title" [(ngModel)]="lego.title" type="text" class="form-control" pattern=".{3,}"
                         required>
-                    <div [hidden]="editForm.controls['title'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['title']?.valid" class="error-message">
                         A név legalább 3 karakter hosszú legyen.
                     </div>
                 </div>
             </div>
-            <div class="form-group ">
-                <label for="">Leírás</label>
-                <textarea name="desc" [(ngModel)]="lego.description" type="text" class="form-control" pattern=".{8,400}"
-                    rows="3" required></textarea>
-                <div [hidden]="editForm.controls['desc'].valid" class="error-message">
-                    A leírás legalább 8, maximum 400 karater hosszú lehet.
+            <div class="row">
+                <div class="form-group col-12">
+                    <label for="">Leírás</label>
+                    <textarea name="desc" [(ngModel)]="lego.description" type="text" class="form-control"
+                        pattern=".{8,400}" rows="3" required></textarea>
+                    <div [hidden]="editForm.controls['desc']?.valid" class="error-message">
+                        A leírás legalább 8, maximum 400 karater hosszú lehet.
+                    </div>
                 </div>
             </div>
 
-            <div class="d-flex">
-                <div class="form-group col-6">
+            <div class="row">
+                <div class="form-group col-12 col-md-6">
                     <label for="">Kategória</label>
                     <select name="catId" [(ngModel)]="lego.category" class="form-control" required>
                         <option disabled></option>
@@ -31,98 +33,99 @@
                         <option value="2">LEGO® Minecraft®</option>
                         <option value="3">LEGO® Super Mario™</option>
                     </select>
-                    <div [hidden]="editForm.controls['catId'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['catId']?.valid" class="error-message">
                         Kérem válasszon ki egy kategóriát!
                     </div>
                 </div>
-                <div class="form-group col-6 ps-2">
+                <div class="form-group col-12 col-md-6">
                     <div class="form-group">
                         <label for="">Ajánlott korosztály</label>
                         <input name="age" [(ngModel)]="lego.age" type="text" class="form-control" min="2" required>
                     </div>
-                    <div [hidden]="editForm.controls['age'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['age']?.valid" class="error-message">
                         Az ajánlott korosztály kitöltése kötelező.
                     </div>
                 </div>
             </div>
 
-            <div class="d-flex">
-                <div class="form-group col-6">
+            <div class="row">
+                <div class="form-group col-12 col-md-6">
                     <label for="">Termékazonosító</label>
                     <input name="code" [(ngModel)]="lego.code" type="number" class="form-control" pattern="^[0-9\-]*$"
                         required>
-                    <div [hidden]="editForm.controls['code'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['code']?.valid" class="error-message">
                         A termékazonosító csak szám lehet.
                     </div>
                 </div>
-                <div class="form-group col-6 ps-2">
+                <div class="form-group col-12 col-md-6">
                     <label for="">Darabszám</label>
                     <input name="piece" [(ngModel)]="lego.piece" type="number" class="form-control" min="1"
                         pattern="^[0-9\-]*$" required>
-                    <div [hidden]="editForm.controls['piece'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['piece']?.valid" class="error-message">
                         A darabszám csak egész szám lehet.
                     </div>
                 </div>
             </div>
 
-            <div class="d-flex align-items-center">
-                <div class="form-group col-4">
+            <div class="row align-items-center">
+                <div class="form-group col-12 col-lg-4">
                     <label for="">Népszerűség</label>
                     <input name="stars" [(ngModel)]="lego.stars" type="number" class="form-control" min="0" max="5"
                         required>
-                    <div [hidden]="editForm.controls['stars'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['stars']?.valid" class="error-message">
                         A csillagok száma 0-5db lehet.
                     </div>
                 </div>
-                <div class="form-group  col-4  ps-2">
+                <div class="form-group col-12 col-lg-4">
                     <label for="">Megjelenés éve</label>
                     <input name="year" [(ngModel)]="lego.year" type="number" class="form-control"
                         pattern="([1][9][5-9][0-9])|([2][0-9]{3})" required>
-                    <div [hidden]="editForm.controls['year'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['year']?.valid" class="error-message">
                         A megjelenés éve csak szám lehet (1950 utáni).
                     </div>
                 </div>
-                <div class="form-group col-4 ps-2">
+                <div class="form-group col-12 col-lg-4">
                     <input name="new" [(ngModel)]="lego.new" class="form-check-input" type="checkbox">
                     <label class="form-check-label" for="flexCheckDefault">&nbsp;&nbsp;Újdonság</label>
                 </div>
 
             </div>
 
-            <div class="d-flex">
-                <div class="form-group col-4">
+            <div class="row">
+                <div class="form-group col-12 col-lg-4">
                     <label for="">Készlet</label>
                     <input name="stock" [(ngModel)]="lego.stock" type="number" class="form-control" min="0" required>
-                    <div [hidden]="editForm.controls['stock'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['stock']?.valid" class="error-message">
                         A készlet kitöltése kötelező (csak szám lehet).
                     </div>
                 </div>
-                <div class="form-group col-4 ps-2">
+                <div class="form-group col-12 col-lg-4">
                     <label for="">Eredeti ár</label>
                     <input name="price" [(ngModel)]="lego.price" type="number" class="form-control" min="1" required>
-                    <div [hidden]="editForm.controls['price'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['price']?.valid" class="error-message">
                         Az ár csak csak szám lehet.
                     </div>
                 </div>
-                <div class="form-group col-4 ps-2">
+                <div class="form-group col-12 col-lg-4">
                     <label for="">Leárazás %-ban</label>
                     <input name="discont" [(ngModel)]="lego.discont" type="number" class="form-control" min="0"
                         max="100" required>
-                    <div [hidden]="editForm.controls['discont'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['discont']?.valid" class="error-message">
                         A leárazás mértéke csak egész szám lehet.
                     </div>
                 </div>
             </div>
-            <div class="d-flex">
-                <div class="form-group col-8">
+            <div class="row">
+                <div class="form-group col-12 col-xl-6">
                     <label for="">Kép</label>
                     <input name="img" [(ngModel)]="lego.img" type="text" class="form-control">
-                    <div [hidden]="editForm.controls['img'].valid" class="error-message">
+                    <div [hidden]="editForm.controls['img']?.valid" class="error-message">
                         Adja meg a kép helyét.
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-center m-2">
-                    <img src="{{lego.img}}" alt="" height="200px">
+                <div class="col-12 col-xl-6 d-flex justify-content-center p-2">
+                    <div><img src="{{lego.img}}" alt="" height="200px"></div>
+
                 </div>
 
             </div>

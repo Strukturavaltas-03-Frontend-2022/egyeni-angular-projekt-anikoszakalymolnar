@@ -17,7 +17,7 @@
             <button class="btn btn-warning btn-lg" routerLink="/legos" type="button">Ugrás a termékekre ></button>
         </div>
     </div>
-    <div *ngIf="(list$ | async) | topstars | availablestock | random as list">
+    <div *ngIf="(list$ | async) | topstars | availablestock | isnewlego | random as list">
         <app-lister [list]="list" [cardperpage]="4" [bigCard]="false"></app-lister>
     </div>
 

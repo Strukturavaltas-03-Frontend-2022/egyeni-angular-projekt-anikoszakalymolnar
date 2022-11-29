@@ -1,27 +1,19 @@
 # KockaVilag
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+Egy LEGO webshop a választott témám.
 
-## Development server
+Választás oka, hogy hamarosan jön a karácsony és a LEGO egy jó ajándék kicsiknek és nagyoknak egyaránt.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+_Mellesleg nagy LEGO gyűjtő is vagyok, ezért nem volt nehéz összerakni az adatbázist, végre egy kicsit pihenhettem :)_
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Indítás
+Json-server futtatása: `json-server --watch .\server\legos.json`
+Angular futtatása: `npm start`
+Angualar verzió: [Angular CLI](https://github.com/angular/angular-cli) 14.2.6.
 
-## Build
+## Frontend
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+A felülethez [Bootstra](https://getbootstrap.com/docs/5.2) 5.2-es elemeket és [Font Awesone](https://fontawesome.com/v4/icons/) 4.7-es ikonokat használtam. Pár helyen saját CSS-t azért kellett írni.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+A lapozóhoz az [ngx-pagination](https://github.com/michaelbromley/ngx-pagination/blob/master/README.md) kiegészítőt használtam.

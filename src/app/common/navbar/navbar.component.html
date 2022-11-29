@@ -5,28 +5,35 @@
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" routerLink="/">Kezdőoldal</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/legos">Termékeink</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/brickheadz">Brickheadz</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/minecraft">Minecraft</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/supermario">Super Mario</a>
+                <li class="nav-item dropdown">
+                    <div class="btn-group">
+                        <a class="nav-link active" aria-current="page" routerLink="/legos">Termékeink</a>
+                        <a class="nav-link dropdown-toggle px-0" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/brickheadz">Brickheadz</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/minecraft">Minecraft</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/supermario">Super Mario</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
+            <!-- <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> -->
 
         </div>
     </div>

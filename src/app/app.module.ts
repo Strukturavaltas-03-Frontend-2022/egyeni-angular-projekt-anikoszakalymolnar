@@ -23,6 +23,7 @@ import { TopstarsPipe } from './pipe/topstars.pipe';
 import { LegoComponent } from './pages/lego/lego.component';
 import { RandomPipe } from './pipe/random.pipe';
 import { FooterComponent } from './common/footer/footer.component';
+import { IsnewlegoPipe } from './pipe/isnewlego.pipe';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { FooterComponent } from './common/footer/footer.component';
     TopstarsPipe,
     LegoComponent,
     RandomPipe,
-    FooterComponent
+    FooterComponent,
+    IsnewlegoPipe
   ],
   imports: [
     BrowserModule,
